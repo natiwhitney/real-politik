@@ -1,0 +1,41 @@
+                               Setting up interactive Postgres session in Sublime Text
+
+From Sublime Text, create 2 groups:
+
+[From Toolbar] View -> Groups -> New Group
+
+Split groups horizontally:
+
+	[From Toolbar] View -> Layout -> Rows: 2
+
+Create a folder in location of your choice, in this example using a folder “SQL” in  home directory.
+
+With focus on Group 1 (upper group), create file “psql-build.sublime-build”, saving it in the Sublime build system subdirectory.  In Mac OS Mojave:
+
+~/Library/Application Support/Sublime Text 3/Packages/User/psql-build.sublime-build
+
+In snippet below, [USER] and [PASSWORD] refer to your postgres account.  Do not keep your password hardcoded in this file when you save.  You can enter it upon beginning each session.
+
+{
+  "env": { "PGPASSWORD":[PASSWORD] },
+  "shell_cmd": "psql -h [HOST] -U [USER] -d [DATABASE] -p 5439 -o ~/SQL/results.txt -f $file", 
+  "working_dir":"~/SQL"
+}
+
+From your SQL directory, create symbolic link  to Sublime build system directory:
+
+sudo ln -s "~/Library/Application Support/Sublime Text 3/Packages/User/psql-build.sublime-build" psql-build.sublime-build
+
+Change focus to Group 2:
+
+	[From Toolbar] View -> Focus Group -> Next
+
+Start a new file in Group 2 , saving it empty as “results.txt” within your SQL directory.
+
+Revert back to Group 1, and start a new file within your SQL directory, “current-session.sql”.  This file serves as the “pane” from which you will form and execute your SQL commands from.  Upon generating an SQL expression, such as:
+
+select * from kdb.stats where trunc(stats_timestamp) = ‘2019-02-09’ order by stats_timestamp desc limit 25;
+
+Press Cmd+B to execute statement.  Results will form in “results.txt”, located in lower pane.  The console will also display any errors, as well as timings for the queries.  
+
+MAKE SURE YOUR FILES ARE SET TO LANGUAGE = SQL TO CORRECTLY DISPLAY RESULTS AS TABLES AND SYNTAX HIGHLIGHT PROPERLY.
