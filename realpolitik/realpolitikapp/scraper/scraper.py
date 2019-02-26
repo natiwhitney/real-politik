@@ -34,7 +34,6 @@ def find_content(page_content, content_metadata):
   return func(page_content)
 
 def convert_html_table_to_dict(table):
-  # Given HTML table convert to dict
   headers = []
   d = {}
   for header in table.find_all("th"):
@@ -73,7 +72,7 @@ def convert_content(content, content_metadata):
 
 def convert_to_raw_dict(content_dict, url_mappings, name):
   # Given unprocessed HTML dict, use source-specific mappings
-  # to convert dictionary to raw dictionary (intermediate output)s
+  # to convert to intermediate format (raw dict)
   raw_dict_keys = url_mappings.keys()
   raw_dict = {}
   for k in raw_dict_keys:
