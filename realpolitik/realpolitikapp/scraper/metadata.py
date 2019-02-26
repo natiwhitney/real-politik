@@ -56,7 +56,5 @@ sources_metadata = {"19hz": {
     'func': city_parser,
     'args-array': [[]]
     }
-    }
-}
   }
-}
+}}}
