@@ -24,14 +24,17 @@ def find_table(page_content):
 
 def find_content(page_content, content_metadata):
   # Given BeautifulSoup page object, find relevant content
+  # Find function is selected based on content's format key
   switcher = {
     "table": find_table,
+    # different sources will require different formats (won't all be HTML tables)
   }
   content_format = content_metadata['format']
   func = switcher.get(content_format, lambda: "Invalid format:" + content_format)
   return func(page_content)
 
 def convert_html_table_to_dict(table):
+  # Given HTML table convert to dict
   headers = []
   d = {}
   for header in table.find_all("th"):
@@ -52,43 +55,47 @@ def convert_html_table_to_dict(table):
   return d
 
 def convert_content(content, content_metadata):
-  #Given BeautifulSoup HTML tree(s), convert to Python dict(s)
+  # Given BeautifulSoup HTML tree(s), convert to dict(s)
+  # Conversion function is selected based on content's format key
   content_format = content_metadata['format']
   content_indices = content_metadata['indices']
   switcher = {
     "table": convert_html_table_to_dict,
+    # different sources will require different formats (won't all be HTML tables)
   }
   html_dicts = []
-  for ind in content_indices: # for example, there may be multiple tables
+  for ind in content_indices: # there may be multiple tables, i.e. 19hz
     content_html = content[ind]
     func = switcher.get(content_format, lambda: "Invalid format:" + specific_format)
     content_dict = func(content_html)
     html_dicts.append(content_dict)
   return html_dicts
 
-def convert_to_raw_dict(table_dict, url_mappings, name):
+def convert_to_raw_dict(content_dict, url_mappings, name):
+  # Given unprocessed HTML dict, use source-specific mappings
+  # to convert dictionary to raw dictionary (intermediate output)s
   raw_dict_keys = url_mappings.keys()
   raw_dict = {}
   for k in raw_dict_keys:
     values = url_mappings[k]
     n_values = len(values)
-    n_elems = len(table_dict[values[0]])
+    n_elems = len(content_dict[values[0]])
     elems = []
     for i in range(0, n_elems):
       e = ''
       for j in range(0, n_values):
-        table_key = values[j]
-        table_value = table_dict[table_key][i]
+        content_key = values[j]
+        content_value = content_dict[content_key][i]
         if (j > 0):
-          e = e + '|' + table_value
+          e = e + '|' + content_value
         else:
-          e = e + table_value
+          e = e + content_value
       elems.append(e)
     raw_dict.update({k: elems})
     raw_dict.update({'source': [name for i in range(0,n_elems)]})
   return raw_dict
 
-# known bug... including headers twice
+# TKTK known bug... currently including headers twice
 def process_content(page_content, content_metadata, name):
   content = find_content(page_content, content_metadata)
   html_dicts = convert_content(content, content_metadata)
