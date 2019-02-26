@@ -1,0 +1,410 @@
+start-date-time,venue-name,event-name,city,tags,duration,venue-address
+2019-02-24T06:00:00Z,monroe,"after dawn w/ syd gris, scottie e and vedda",san francisco,deep house,WIP,473 broadway st
+2019-02-24T12:30:00Z,mars bar,sunday funday: john simmons [chicago] birthday trifecta!,san francisco,"deep house, funky house",WIP,798 brannan st
+2019-02-24T13:00:00Z,bergerac,spencer brown - day party,san francisco,progressive house,WIP,316 11th st
+2019-02-24T13:00:00Z,hotel via,airpusher cloud city feat. psychemagik,san francisco,funky house,WIP,no match
+2019-02-24T14:00:00Z,vinyl dreams,bob v is alive! a couch party!,san francisco,"deep house, techno, disco",WIP,593 haight st
+2019-02-24T16:00:00Z,sp2 communal bar + restaurant,all the vibes featuring the whooligan x miles medina,san jose,"trap, hip-hop, future beats",WIP,389 s. first st
+2019-02-24T19:00:00Z,the uc theatre taube family music hall,"lords of acid w/orgy, genitorturers, gabriel and the apocalypse",berkeley,"industrial, techno",WIP,2036 university ave
+2019-02-24T21:00:00Z,monarch,werd. | mossmoss / charlotte the baroness,san francisco,"techno, tech house",WIP,101 6th st
+2019-02-24T21:00:00Z,the jam (arcata),"sundaze: marjo lak, copperton3, esch",,"deep house, tech house",WIP,no match
+2019-02-24T21:00:00Z,the stud,spellbound : pisces,san francisco,house,WIP,399 9th st
+2019-02-24T22:00:00Z,f8 1192 folsom,"stamina sundays residents night: flaco, jamal, no-se",san francisco,"drum and bass, jungle",WIP,1192 folsom
+2019-02-24T23:00:00Z,the endup,"groove sunday: nocturnal code reunion w/ lisa rose, bairfro, taj",san francisco,"tech house, deep house, techno",WIP,401 6th st
+2019-02-24T23:00:00Z,the endup,"sunday night groove: nocturnal code reunion feat. lisa rose, bairfro & taj",san francisco,"tech house, deep house, techno",WIP,401 6th st
+2019-02-25T07:00:00Z,underground,"visions of a new world: volume xi w/entropy worship, its own infinite flower, cahl sel, tatsuro (dj set), pacific singles, austin cesear, blakeblakeblake",san francisco,"house, techno, leftfield",WIP,424 haight st
+2019-02-25T19:00:00Z,fox theater,robyn,oakland,"synthpop, dancepop, house",WIP,1807 telegraph ave
+2019-02-25T20:00:00Z,rickshaw stop,robert delong + morgxn live,san francisco,"live electronic, synthpop",WIP,155 fell st
+2019-02-25T20:00:00Z,republic bar & grill,bass therapy ft blaize & more,sacramento,dubstep,WIP,no match
+2019-02-25T21:00:00Z,the press club,monday vibes w/ mc ham & friends,sacramento,"balearic, house, disco",WIP,no match
+2019-02-25T22:00:00Z,hopmonk tavern sebastopol (sebastopol),monday night edutainment,,"dancehall, hip-hop, trap, reggae",WIP,230 petaluma ave
+2019-02-26T19:00:00Z,fox theater,robyn,oakland,"synthpop, dancepop, house",WIP,1807 telegraph ave
+2019-02-26T19:30:00Z,envelop at the midway,intro to spatial audio workshop w/ envelop for live,san francisco,live electronic,WIP,900 marin st
+2019-02-26T20:00:00Z,the catalyst club atrium (santa cruz),haywyre,,"dubstep, future bass",WIP,1011 pacific ave
+2019-02-26T21:00:00Z,the continental bar lounge & patio,rhythm ritual - residents night,san jose,house,WIP,no match
+2019-02-26T22:00:00Z,monarch,"soundpieces $2 tuesday: sychosis, ryury, aeon, psamtik & arson",san francisco,"dubstep, trap, grime, hip-hop, footwork, juke, halftime drum and bass, house",WIP,101 6th st
+2019-02-27T18:00:00Z,mars bar,airpusher flyby,san francisco,"tech house, deep house",WIP,798 brannan st
+2019-02-27T19:00:00Z,adelines lab,"controlled chaos - b1, smomid, vt100, vsm",berkeley,"live electronic, electro",WIP,no match
+2019-02-27T19:00:00Z,the midway,ableton user group - february,san francisco,music workshop,WIP,900 marin st
+2019-02-27T20:00:00Z,brick & mortar music hall,defraktion presents prism,san francisco,dubstep,WIP,no match
+2019-02-27T20:00:00Z,the legionnaire saloon,"rotc oak feat. frank vennci, dj kevvy kev",oakland,hip-hop,WIP,2272 telegraph ave
+2019-02-27T21:00:00Z,f8 1192 folsom,"housepitality: mystic bill, johnny walker, infinite jess",san francisco,house,WIP,1192 folsom
+2019-02-27T21:00:00Z,the stud,kosmetik w/ haustier,san francisco,"house, techno, disco",WIP,399 9th st
+2019-02-27T22:00:00Z,wish bar and lounge,last soma haus w/ jaime james / dj sule e. / zara mez,san francisco,"tech house, funky house, jackin house, deep house",WIP,1539 folsom st
+2019-02-28T17:00:00Z,vinyl dreams,niklas presents something better,san francisco,house,WIP,593 haight st
+2019-02-28T19:00:00Z,great american music hall,maribou state,san francisco,electronic rock,WIP,no match
+2019-02-28T20:00:00Z,rickshaw stop,"mndsgn, swarvy, lando chill",san francisco,hip-hop,WIP,155 fell st
+2019-02-28T20:00:00Z,the hatch,deepinthehatch 3 year anniversary,oakland,"tech house, deep house",WIP,no match
+2019-02-28T21:00:00Z,mezzanine,"david august, pedro arbulu",san francisco,"live pa, techno",WIP,444 jessie st
+2019-02-28T21:00:00Z,enso nightclub & bar,"the move (preda records takeover): mixed culture, izan, chango, dayin knight",san jose,"bass house, tech house, electro house",WIP,no match
+2019-02-28T21:00:00Z,brix 581,cosmic duality release party w/ advanced suite & darklord gob,oakland,"psydub, glitch, dubstep, chillstep, bass music",WIP,581 5th st
+2019-02-28T21:00:00Z,the continental bar lounge & patio,kamaal williams live,san jose,"garage, funk, jazz",WIP,no match
+2019-02-28T21:00:00Z,the legionnaire saloon,"lightworks - oakland dilla day w/stanley ipkuss, drewmin, chris keys, mophono, argonaut, deejay saruus, marc stretch, bobby ganush",oakland,"hip-hop, breaks",WIP,2272 telegraph ave
+2019-02-28T21:00:00Z,blondie's (davis),play - an edm biweekly,,"dubstep, trap, glitch hop, bass music",WIP,no match
+2019-02-28T21:30:00Z,social nightclub,project o1 ft jayceeoh,sacramento,"trap, future bass",WIP,no match
+2019-02-28T21:30:00Z,bergerac,maribou state (dj set),san francisco,electronic rock,WIP,316 11th st
+2019-02-28T22:00:00Z,1015 folsom,dj boring + jacques greene at 1015 folsom,san francisco,"house, techno",WIP,1015 folsom st
+2019-02-28T22:00:00Z,bar fluxus,hard maybe 04: sappho + wywood,san francisco,"tech house, deep house",WIP,18 harlan place
+2019-02-28T22:00:00Z,underground,konstruct 1-year anniversary: drumcell,san francisco,techno,WIP,424 haight st
+2019-02-28T22:00:00Z,monarch,smoked out soul featuring low lite & special guests,san francisco,electronic funk,WIP,101 6th st
+2019-02-28T22:00:00Z,the endup,substance w/ terry francis,san francisco,tech house,WIP,401 6th st
+2019-03-01T19:00:00Z,gray area,"tourist, qrion, gilligan moss",san francisco,"synthpop, leftfield, future beats, deep house, techno",WIP,2665 mission st
+2019-03-01T19:00:00Z,tba,"off the record: xhale ghost b2b lucid absynth, anthony sceam, wy-fy, ghost host b2b bdkdz , magz, k2, dr. pockets, esoteric informer",sacramento,"trap, dubstep",WIP,no match
+2019-03-01T19:30:00Z,starline social club,"kamaal williams, jitwam",oakland,"downtempo, leftfield, house",WIP,2236 martin luther king jr. way
+2019-03-01T20:00:00Z,slim's,haywyre / stayloose / balkan bump,san francisco,"dubstep, future bass",WIP,no match
+2019-03-01T20:00:00Z,el rey theater (chico),getter presents: visceral live,,"dubstep, trap, breakbeats",WIP,no match
+2019-03-01T20:00:00Z,phonobar,"maher daniel, chvck, and monoclick",san francisco,"progressive house, tech house",WIP,370 grove st
+2019-03-01T21:00:00Z,jam cellars ballroom at margrit mondavi theatre (napa),dj questlove,,hip-hop,WIP,no match
+2019-03-01T21:00:00Z,dna lounge,lny tnz & ntxc,san francisco,"dubstep, hardstyle",WIP,375 11th st
+2019-03-01T21:00:00Z,the ritz,"satori annual cure spotlight w/dj bit, dj davey bones",san jose,"post-punk, new wave, darkwave, goth",WIP,no match
+2019-03-01T21:00:00Z,mezzanine,atb,san francisco,"progressive house, trance",WIP,444 jessie st
+2019-03-01T21:00:00Z,underground,vague terrain w/ seer (live) and amourette,san francisco,"live electronic, experimental, electro, techno",WIP,424 haight st
+2019-03-01T21:00:00Z,the public works,"club chai: w/venus x, shyboi, quest?onmarc, thoom, 8ulentina, foozool, qing qi, b-side brujas, fela kutchii, tr4vi3za",san francisco,"club music, juke, footwork, hip-hop, trap",WIP,161 erie st
+2019-03-01T21:00:00Z,tba,"unity w/ evil eddie richards, galen, tony, taj, rick v, danny woods",sacramento,"deep house, tech house",WIP,no match
+2019-03-01T21:30:00Z,audio,sofi tukker x animal talk showcase,san francisco,"synthpop, pop EDM",WIP,316 11th st
+2019-03-01T21:30:00Z,the great northern,"omar s, dj nobu, mike gushansky, lindsey herbert, nonsuit",san francisco,"techno, deep house, tech house",WIP,119 utah st
+2019-03-01T21:30:00Z,f8 1192 folsom,"believe in f8 w/halo varga, tone rangole, dj seven, vedda, & ft",san francisco,deep house,WIP,1192 folsom
+2019-03-01T21:30:00Z,monarch,set w/ coyu (suara),san francisco,tech house,WIP,101 6th st
+2019-03-01T21:30:00Z,cat club,strangelove: tribute to the sisters of mercy,san francisco,"dark electro, industrial, goth",WIP,1190 folsom st
+2019-03-01T22:00:00Z,the layover,ren the vinyl archaeologist,oakland,hip-hop,WIP,1517 franklin st
+2019-03-01T22:00:00Z,milk bar,indie fyre (an indie pop rock dance party),san francisco,"indie dance, electro house, synthpop",WIP,1840 haight st
+2019-03-01T22:00:00Z,the golden bear,"openwide - leap_year, amicus",sacramento,"tech house, house, hip-hop",WIP,no match
+2019-03-01T22:00:00Z,temple nightclub,green velvet,san francisco,"tech house, techno",WIP,540 howard st
+2019-03-01T22:00:00Z,club x,mardi gras 2019,san francisco,"big room, top 40, dress code",WIP,715 harrison st
+2019-03-01T22:00:00Z,halcyon,monika kruse and mella dee,san francisco,techno,WIP,no match
+2019-03-01T22:00:00Z,1015 folsom,petit biscuit,san francisco,"pop EDM, synthpop",WIP,1015 folsom st
+2019-03-01T22:00:00Z,danzhaus dance center,"back 2 bassic w/ crystalize, waaves, and more",san francisco,"dubstep, trap, future bass, bass house",WIP,no match
+2019-03-02T14:00:00Z,vinyl dreams,good4u almost-spring reunion!,san francisco,"house, techno, disco",WIP,593 haight st
+2019-03-02T18:00:00Z,the public works,sf burnal equinox 2019: transmorphizone,san francisco,"tech house, funky house, electro house, breaks",WIP,161 erie st
+2019-03-02T18:30:00Z,harlow's restaurant and nightclub,mndsgn w/ ahwlee & latour,sacramento,hip-hop,WIP,no match
+2019-03-02T19:00:00Z,the chapel,noise pop festival: yves tumor,san francisco,"goth, experimental, deep house",WIP,no match
+2019-03-02T20:00:00Z,phonobar,fort romeau w/ jimmy b,san francisco,"deep house, funky house, tech house",WIP,370 grove st
+2019-03-02T21:00:00Z,american legion post 795 (south lake tahoe),space cowboys presents shred the decks,,"breaks, electro house, funky house",WIP,no match
+2019-03-02T21:00:00Z,fulton 55 (fresno),tenova (toolroom),,tech house,WIP,875 divisadero st
+2019-03-02T21:00:00Z,7th west,"baystation: luny (wile out), jackfruit, rayreck, jbuk, grlgod",oakland,"global bass, club music, jersey club, trap, juke, reggaeton, house, baile funk",WIP,no match
+2019-03-02T21:00:00Z,the hatch,so it goes at the hatch,oakland,"tech house, deep house, progressive house",WIP,no match
+2019-03-02T21:00:00Z,driftwood,"dark dirty disco: anomalous, sweet tooth, fredness & dj chulada",san francisco,"house, disco",WIP,1225 folsom st
+2019-03-02T21:00:00Z,lounge 3411,"forest green's birthday party & cute fang party time w/mochipet, dj denise, forest green, amber leigh, random & dj clairity, max kim the odd guy",oakland,"bass house, electro house, breaks, drum and bass, tech house",WIP,3411 macarthur blvd
+2019-03-02T21:00:00Z,3 disciples brewing (santa rosa),northbass: barisone // yungg trip // guidance // 3sum,,"dubstep, tropical bass, drum and bass, bass music",WIP,no match
+2019-03-02T21:00:00Z,starline social club,"palace 24 - three year anniversary party! space ghost, chungtech, ebrc",oakland,"funk, disco, house",WIP,2236 martin luther king jr. way
+2019-03-02T21:00:00Z,dna lounge,bootie sf: cirque du poleil,san francisco,mashups,WIP,375 11th st
+2019-03-02T21:00:00Z,the stud,go bang! disco action w/ david harness + go bang! residents,san francisco,deep house,WIP,399 9th st
+2019-03-02T21:00:00Z,dna lounge upstairs,"jungle juice 3: xhale ghost, elevener, sqorch, wolvero, sa, puppet, jester, a.n.t., sisto, dj smokie, splendid, frankiem",san francisco,"jungle terror, dubstep, trap, drum and bass",WIP,375 11th st
+2019-03-02T21:30:00Z,slate bar,"harder, better, faster, stronger: blacklight blackout",san francisco,mashup,WIP,2925 16th st
+2019-03-02T21:30:00Z,audio,sofi tukker x animal talk showcase,san francisco,pop EDM,WIP,316 11th st
+2019-03-02T21:30:00Z,monarch,"kellektiv turmstrasse (diynamic, get physical)",san francisco,tech house,WIP,101 6th st
+2019-03-02T21:30:00Z,monarch,kollektiv turmstrasse,san francisco,tech house,WIP,101 6th st
+2019-03-02T21:30:00Z,the great northern,set w/ anna,san francisco,"techno, tech house",WIP,119 utah st
+2019-03-02T22:00:00Z,origin,jackal & beauz,san francisco,"trap, dubstep",WIP,1538 fillmore st
+2019-03-02T22:00:00Z,underground,lift,san francisco,"techno, house",WIP,424 haight st
+2019-03-02T22:00:00Z,halcyon,enrico sangiuliano,san francisco,techno,WIP,no match
+2019-03-02T22:00:00Z,club six,"fog city pack presents: alpha: jackie house, fawks, astro",san francisco,house,WIP,no match
+2019-03-02T22:00:00Z,tba,"derrick may, jeno void, borzu [bo], rooz , max gardner",san francisco,"techno, house",WIP,no match
+2019-03-02T22:00:00Z,"ltation: kabayun, sunchild, audiodidakt, symbiot, xipil, michael liu, cosmic lotus",ex,,psytrance,WIP,no match
+2019-03-03T02:00:00Z,the endup,elements of house saturday night afterhours feat. ray vazquez,san francisco,deep house,WIP,401 6th st
+2019-03-03T13:00:00Z,audio,best day ever w/ oliver heldens,san francisco,"funky house, future house",WIP,316 11th st
+2019-03-03T13:00:00Z,the midway,catz n dogz - day party patio,san francisco,"deep house, tech house",WIP,900 marin st
+2019-03-03T14:00:00Z,el rio,swagger like us presents dai burger,san francisco,hip-hop,WIP,3158 mission st
+2019-03-03T22:00:00Z,f8 1192 folsom,"stamina sundays w/ tc, stamina crew",san francisco,"drum and bass, jungle",WIP,1192 folsom
+2019-03-04T19:00:00Z,underground,"vdsf monday nite social club: andre, johnnie walker, dj oh",san francisco,"house, techno, disco, funk, leftfield",WIP,424 haight st
+2019-03-05T17:30:00Z,monarch,taco tuesday,san francisco,"house, disco",WIP,101 6th st
+2019-03-05T20:00:00Z,republic bar & grill,"bass therapy: ft ab the thief, triple f & more",sacramento,"trap, hip-hop",WIP,no match
+2019-03-05T22:00:00Z,monarch,"soundpieces: leroy peppers, uncanney b2b higrade b2b teluryde, funkytown, ryury",san francisco,"dubstep, trap, grime, hip-hop, footwork, juke, halftime drum and bass, house",WIP,101 6th st
+2019-03-06T20:00:00Z,rickshaw stop,the kvb / numb.er / houses of heaven,san francisco,"darkwave, synthpunk",WIP,155 fell st
+2019-03-06T21:00:00Z,f8 1192 folsom,"housepitality: sunshine jones, tobin ellsworth, groovewell",san francisco,"deep house, funky house",WIP,1192 folsom
+2019-03-07T20:00:00Z,bar fluxus,"fluxtuated: jdirra, blk&wht b2b wei, bri, anthony zmoda, danny delay",san francisco,house,WIP,18 harlan place
+2019-03-07T21:00:00Z,lowbrau,dive deep featuring jody wisternoff,sacramento,"progressive house, tech house",WIP,no match
+2019-03-07T21:00:00Z,f8 1192 folsom,get w/ barisone,san francisco,"hip-hop, club music, bass music",WIP,1192 folsom
+2019-03-07T21:00:00Z,dna lounge,"sequence: jantsen, digital ethos, & big chocolate",san francisco,"dubstep, hybrid trap, riddim, hip-hop",WIP,375 11th st
+2019-03-07T21:30:00Z,audio,arty,san francisco,"progressive house, big room",WIP,316 11th st
+2019-03-07T21:30:00Z,the park ultra lounge,wolfgang gartner,sacramento,electro house,WIP,no match
+2019-03-07T22:00:00Z,underground,"shelter - professor bang, k2, splendid, shadow spirit",san francisco,"drum and bass, jungle, dubstep, bass music",WIP,424 haight st
+2019-03-07T22:00:00Z,1015 folsom,malaa,san francisco,"future house, g-house",WIP,1015 folsom st
+2019-03-07T22:00:00Z,the endup,substance 1yr anniversary w/ stacey pullen,san francisco,tech house,WIP,401 6th st
+2019-03-08T02:00:00Z,tba,german brigante (dirtybird/get physical) at private tba.,san francisco,tech house,WIP,no match
+2019-03-08T19:00:00Z,pyramind,"evolve.2 w/fierce animals, mac vaughn, ryan michael robbins",san francisco,"tech house, techno, minimal",WIP,no match
+2019-03-08T19:30:00Z,starline social club,empress of,oakland,synthpop,WIP,2236 martin luther king jr. way
+2019-03-08T20:00:00Z,1983 new long valley rd (clearlake oaks),moongodz entertainment: lunar landing,,"dubstep, trap, house, psytrance, bass music",WIP,no match
+2019-03-08T20:30:00Z,the independent,bleep bloop (live modular),san francisco,"live modular, trap, hip-hop, dubstep, bass music",WIP,628 divisadero st
+2019-03-08T21:00:00Z,the jam (arcata),"vitta (sf), marjo lak, skinny pepperwood",,"dubstep, breaks, drum and bass",WIP,no match
+2019-03-08T21:00:00Z,111 minna gallery,"international women's day in the bay: a benefit for immigrant children, families, & refugees via raices feat aiko / femmelectric / foxforce005 / hellacat  / sobb deep + ladies only open decks",san francisco,"hip-hop, disco, electro, house, breaks, techno",WIP,111 minna st
+2019-03-08T21:00:00Z,brix 581,"rhythm method: emanate [mioli music] jane allen's birthday w/mario dubbz, vedda, mike bledsoe, jan van lier, no way jose, ally af",oakland,"tech house, techno, deep house, funky house",WIP,581 5th st
+2019-03-08T21:00:00Z,driftwood,wrongway: cm-4 b2b birch koolman all night long,san francisco,"deep house, tech house, techno",WIP,1225 folsom st
+2019-03-08T21:00:00Z,mezzanine,wolfgang gartner,san francisco,electro house,WIP,444 jessie st
+2019-03-08T21:00:00Z,the stud,"special guest, kathi, day thief",san francisco,"techno, house",WIP,399 9th st
+2019-03-08T21:00:00Z,tba,"masters of puppets teaser: narkotika, bodhi, oso, blue spectral monkey, treetop, andrus, cosmic lotus",san francisco,"psytrance, hitech",WIP,no match
+2019-03-08T21:30:00Z,the golden bull,stigmata w/ guest dj: bit,oakland,"goth, synthpop, darkwave",WIP,no match
+2019-03-08T21:30:00Z,audio,jody wisternoff,san francisco,"progressive house, tech house",WIP,316 11th st
+2019-03-08T21:30:00Z,the great northern,a club called rhonda sf,san francisco,"house, disco, funk",WIP,119 utah st
+2019-03-08T21:30:00Z,public works oddjob loft,rhadoo,san francisco,"tech house, minimal, techno",WIP,1337 mission st
+2019-03-08T21:30:00Z,the public works,"viken arman, lum, and crussen",san francisco,"deep house, tech house",WIP,161 erie st
+2019-03-08T21:30:00Z,monarch,the garden party w/ tara brooks // rachel torro // benjamin k,san francisco,"tech house, techno",WIP,101 6th st
+2019-03-08T22:00:00Z,temple nightclub,cray,san francisco,"future bass, trap",WIP,540 howard st
+2019-03-08T22:00:00Z,1015 folsom,valentino khan's house party,san francisco,electro house,WIP,1015 folsom st
+2019-03-08T22:00:00Z,halcyon,bruno furlan and vnssa,san francisco,tech house,WIP,no match
+2019-03-08T22:00:00Z,f8 1192 folsom,"robot ears: phase, lindsey herbert, sean ocean (live), mnml:fun",san francisco,"techno, minimal",WIP,1192 folsom
+2019-03-09T06:00:00Z,the endup,"inside out presents the patio party season opener w/emanate, dean samaras, antonio manigrassi, lisa rose, vedda, cristoffer z",san francisco,"tech house, techno, deep house",WIP,401 6th st
+2019-03-09T18:00:00Z,415 c st (galt),"animalistik 2019 ft arius, phiso, codd dubz, chime, irie mike, neonbunny, k2, empyral, mile high, haddit, ano b2b z-major",,"dubstep, trap",WIP,no match
+2019-03-09T19:30:00Z,cornerstone,droeloe w/kidswaste,berkeley,"future bass, hip-hop, bass music, dubstep",WIP,no match
+2019-03-09T20:00:00Z,the warfield,matoma,san francisco,tropical house,WIP,982 market st
+2019-03-09T20:00:00Z,halcyon,headroom sf listening sessions,san francisco,music showcase,WIP,no match
+2019-03-09T20:00:00Z,slim's,gravedgr,san francisco,"dubstep, trap",WIP,no match
+2019-03-09T20:15:00Z,de anza college fujitsu planetarium (cupertino),laser electronic dance music,,"EDM, big room, big beat",WIP,no match
+2019-03-09T20:30:00Z,the independent,luttrell,san francisco,progressive house,WIP,628 divisadero st
+2019-03-09T21:00:00Z,the regency ballroom,cosmic gate,san francisco,"trance, progressive house",WIP,1300 van ness ave
+2019-03-09T21:00:00Z,elbo room jack london,chasms + article collection + austin cesear + st djs,oakland,"live electronic, experimental, ambient",WIP,no match
+2019-03-09T21:00:00Z,back bar sofa,"magnum dopeness feat defcon one, e-sassin, r.a.w.",san jose,"drum and bass, jungle",WIP,418 s market
+2019-03-09T21:00:00Z,dna lounge,bootie sf: mardi gras mashquerade,san francisco,"big room, top 40, dress code",WIP,375 11th st
+2019-03-09T21:00:00Z,hawthorn bonaparte room,gcode: san francisco's premier g-house party,san francisco,"bass house, tech house, g-house",WIP,46 geary st
+2019-03-09T21:00:00Z,midtown barfly,"technosaic w/ juliet fox, snowdin, amicus, austin fox",sacramento,"techno, tech house",WIP,no match
+2019-03-09T21:00:00Z,f8 1192 folsom,pulse sf 8 year anniversary w/ gaspard sangoma,san francisco,psytrance,WIP,1192 folsom
+2019-03-09T21:30:00Z,dna lounge,"shredder 1984, dredd romero, danny delorean, pendaison",san francisco,"synthwave, new wave, electro",WIP,375 11th st
+2019-03-09T21:30:00Z,the public works,j.phlip & lee reynolds,san francisco,"tech house, deep house, progressive house",WIP,161 erie st
+2019-03-09T21:30:00Z,monarch,inquiry w/ evan casey (desert hearts),san francisco,"tech house, progressive house, techno",WIP,101 6th st
+2019-03-09T21:30:00Z,the great northern,pig&dan,san francisco,"techno, tech house, deep house",WIP,119 utah st
+2019-03-09T22:00:00Z,temple nightclub,fedde le grand,san francisco,electro house,WIP,540 howard st
+2019-03-09T22:00:00Z,public works,electroluxx loft party,san francisco,"funky house, tech house",WIP,161 erie st
+2019-03-09T22:00:00Z,f8,faultline - 5 year anniversary!,san francisco,breaks,WIP,1192 folsom
+2019-03-09T22:00:00Z,halcyon,technasia and de la swing,san francisco,"tech house, deep house",WIP,no match
+2019-03-09T22:00:00Z,tba (east bay),sick sad world w/ dj please,,"juke, drum and bass, donk, hardcore, garage",WIP,no match
+2019-03-10T01:00:00Z,the endup,"rel8 saturday night afterhours feat. harry romero (nyc), taj & eddy santana",san francisco,house,WIP,401 6th st
+2019-03-10T13:00:00Z,vintage synthesizer museum (emeryville),sunday soundbath,,ambient,WIP,no match
+2019-03-10T13:00:00Z,halcyon,"honeypot: ampers&nd, emily fox, miss dre, pantz",san francisco,"tech house, electro house, techno",WIP,no match
+2019-03-10T18:00:00Z,jolene's bar,"can you feel it!? avn (mphatiq + bakr), omna, christina t, qualafox, critical value, dj luv-le",san francisco,"tech house, progressive house, breaks",WIP,no match
+2019-03-10T19:00:00Z,ace of spades,big wild,sacramento,"glitch-hop, synthpop, indie dance",WIP,no match
+2019-03-10T20:00:00Z,elbo room jack london,dstr plus vandalaze,oakland,"synthpop, synthwave",WIP,no match
+2019-03-10T21:00:00Z,monarch,werd. w/ lamache,san francisco,"funky house, deep house, disco",WIP,101 6th st
+2019-03-10T22:00:00Z,the jam (arcata),"sundaze: austin allison, copperton3, lovehaus",,house,WIP,no match
+2019-03-10T22:00:00Z,the stud,"the stud & romper room present sappho, one a, trevor sigler",san francisco,"funky house, tech house, breaks",WIP,399 9th st
+2019-03-12T20:00:00Z,fox theater,james blake,oakland,"post-dubstep, r&b, soul, experimental",WIP,1807 telegraph ave
+2019-03-12T20:00:00Z,the laundry,resident electronic music (march 2019),san francisco,"live electronic, open jam",WIP,no match
+2019-03-12T20:00:00Z,republic bar & grill,bass therapy ft d3v & more,sacramento,dubstep,WIP,no match
+2019-03-12T22:00:00Z,monarch,"soundpieces: grimecraft, danny delorean, sikkie",san francisco,"dubstep, trap, grime, hip-hop, footwork, juke, halftime drum and bass, house",WIP,101 6th st
+2019-03-13T19:30:00Z,cornerstone,"liquid stranger - infinity tour w/lsdream, champagne drip, g-rex, lucii",berkeley,"dubstep, bass music",WIP,no match
+2019-03-13T20:00:00Z,fox theater,james blake,oakland,"post-dubstep, r&b, soul, experimental",WIP,1807 telegraph ave
+2019-03-13T20:30:00Z,motiv (santa cruz),a producers' social takeover: bosa (stephan jacobs & sunev),,"bass music, dubstep",WIP,1209 pacific ave
+2019-03-13T21:00:00Z,f8 1192 folsom,"housepitality: osborn, carlos souffront, trevor sigler, nick moss",san francisco,"funky house, tech house, deep house",WIP,1192 folsom
+2019-03-14T21:00:00Z,blondie's (davis),play - valentine's day edition w/zephyr,,EDM,WIP,no match
+2019-03-14T21:00:00Z,dna lounge,sequence ft. riot,san francisco,dubstep,WIP,375 11th st
+TKTKFri: Mar 15-Sun: Mar 17(Fri: 2pm-Sun: 5pm),tba (healdsburg),celtic chaos st patrick's day campout,,house,WIP,no match
+2019-03-15T19:00:00Z,the warfield,nils frahm,san francisco,"experimental, live looping, ambient, classical",WIP,982 market st
+2019-03-15T20:00:00Z,slim's,"liquid stranger w/lsdream, champagne drip, g-rex, lucii",san francisco,"dubstep, bass music",WIP,no match
+2019-03-15T20:00:00Z,mezzanine,"dirtybird quarterly: christian martin, worthy, ardalan",san francisco,"tech house, funky house",WIP,444 jessie st
+2019-03-15T20:00:00Z,tba,"pisces 2019: wichdokta, forest green, rob-ot, seventh sign v john connor",san francisco,"trance, psytrance",WIP,no match
+2019-03-15T21:00:00Z,hopmonk tavern sebastopol (sebastopol),phutureprimitive,,"dubstep, future beats, glitch, bass music",WIP,230 petaluma ave
+2019-03-15T21:30:00Z,monarch,"old school cool w/justin campbell, dink!, special guest, iwata, snee, b-rose",san francisco,"tech house, deep house",WIP,101 6th st
+2019-03-15T22:00:00Z,love & propaganda,robin schulz,san francisco,tropical house,WIP,no match
+2019-03-15T22:00:00Z,audio,breakbot (dj set),san francisco,"funk, disco, house",WIP,316 11th st
+2019-03-15T22:00:00Z,temple nightclub,mk (marc kinchen),san francisco,house,WIP,540 howard st
+2019-03-15T22:00:00Z,1015 folsom,maceo plex,san francisco,tech house,WIP,1015 folsom st
+2019-03-16T13:00:00Z,the great northern,daft brunch,san francisco,"funky house, disco, french house",WIP,119 utah st
+2019-03-16T16:00:00Z,on one studios,marquee madness - 1v1 house & hustle secretselection competition,san jose,house dance,WIP,no match
+2019-03-16T19:00:00Z,the dhyana center (sebastopol),tea here now - conscious nightlife in action feat. unityvybe,,house,WIP,no match
+2019-03-16T21:00:00Z,fulton 55 (fresno),gawp,,"tech house, jackin house",WIP,875 divisadero st
+2019-03-16T21:00:00Z,brix 581,"friendship! friendship! w/ donald glaude, donald glaude, sonny daze, ernesto cruz, infusion , amber leigh",oakland,"funky house, tech house",WIP,581 5th st
+2019-03-16T21:30:00Z,audio,alex cruz,san francisco,"deep house, progressive house",WIP,316 11th st
+2019-03-16T21:30:00Z,public works,opel 17 year anniversary w/ stanton warriors & the scumfrog,san francisco,"breaks, bass house, electro house",WIP,161 erie st
+2019-03-16T21:30:00Z,the great northern,"wormhole // yheti, nastynasty, potions & more",san francisco,"dubstep, glitch-hop, bass music",WIP,119 utah st
+2019-03-16T21:30:00Z,monarch,house of face: dj harvey / eug / tommy guerrero / fraser cooke,san francisco,"house, techno, disco",WIP,101 6th st
+2019-03-16T22:00:00Z,halcyon,oliver smith x dolby atmos,san francisco,trance,WIP,no match
+2019-03-17T12:00:00Z,mars bar,danceflo,san francisco,"house, disco, funk",WIP,798 brannan st
+2019-03-17T12:00:00Z,tba,"fisher - san francisco block party catch & release w/tensnake, waze & odyssey, martin ikin, david harness, ney x miss mak, torie, invisible child b2b mntra",san francisco,"funky house, tech house, bass house",WIP,no match
+2019-03-17T13:00:00Z,the great northern,daft brunch sf: st. patrick's day,san francisco,"funky house, disco",WIP,119 utah st
+2019-03-17T19:00:00Z,public works,"kokoko! (live), vague terrain (dj cz, yaniv), sep",san francisco,"gqom, afrobeats, club music",WIP,161 erie st
+2019-03-19T20:00:00Z,envelop at the midway,tipper - surrounded : listen,san francisco,"experimental, glitch, ambient, IDM ",WIP,900 marin st
+2019-03-20T21:00:00Z,motiv (santa cruz),"ahee, kowta, junglebandit, highend",,"bass music, glitch-hop, dubstep, trap",WIP,1209 pacific ave
+2019-03-21T21:00:00Z,the continental bar lounge & patio,pat lok + party pupils / party lok tour,san jose,house,WIP,no match
+2019-03-22T02:00:00Z,tba,riva starr,san francisco,"deep house, tech house",WIP,no match
+2019-03-22T13:00:00Z,gray area foundation for the arts,"algorithmic art assembly: mark fell, w00dy, renick bell, kindohm, algobabez, kit clayton, tvo, shatter pattern, william fields, spednar, sebastian camens, digital selves, spatial, vou, wobbly, charlie roberts",san francisco,"experimental, live a/v",WIP,no match
+2019-03-22T20:00:00Z,the rink studios,genesis ft riot + more,sacramento,"dubstep, hip-hop, glitch",WIP,no match
+2019-03-22T20:00:00Z,phonobar,maayan nidam,san francisco,"tech house, minimal",WIP,370 grove st
+2019-03-22T20:30:00Z,the independent,classixx (dj set),san francisco,"synthpop, pop EDM, nu-disco",WIP,628 divisadero st
+2019-03-22T21:00:00Z,brix 581,"frisky: heavy petting zoo spring fundraiser w/dulce vita, nugz, captain jay, afterschool special, backcheck, nick stene, tyme, neon bunny, carlos alfonzo, sonny daze, b33son, b funky",oakland,"tech house, electro house, funky house",WIP,581 5th st
+2019-03-22T21:00:00Z,f8 1192 folsom,"erika, deraout",san francisco,techno,WIP,1192 folsom
+2019-03-22T21:30:00Z,audio,hotel garuda,san francisco,"house, breaks, hip-hop",WIP,316 11th st
+2019-03-22T21:30:00Z,monarch,"gcode w/ney x miss mak, avn",san francisco,"tech house, funky house",WIP,101 6th st
+2019-03-22T21:30:00Z,the great northern,"mark farina 50th birthday: diz, jt donaldson , j-dub, mike cashen, kid enigma",san francisco,"deep house, jackin house",WIP,119 utah st
+2019-03-22T21:30:00Z,the midway,carl cox & joseph capriati,san francisco,techno,WIP,900 marin st
+2019-03-22T22:00:00Z,temple nightclub,vintage culture,san francisco,"pop EDM, house, disco",WIP,540 howard st
+2019-03-22T22:00:00Z,1015 folsom,dombresky + golf clap + lucati,san francisco,"disco house, deep house",WIP,1015 folsom st
+2019-03-22T22:00:00Z,the stud,"we are monsters: marie davidson (live), solar, mozhgan",san francisco,"techno, experimental, house",WIP,399 9th st
+2019-03-23T14:00:00Z,faces nightclub,"pulse: dj shooey, dj icon, andromeda, matt trujillo, dot diggler, zephyr, freddy silva, pumatron, amy roze, dj rated r",sacramento,"breaks, electro house, tech house, funky house",WIP,no match
+2019-03-23T19:00:00Z,the midway,"trancefamily sf 9 year anniversary  w/ ferry corsten, will atkinson, factor b, nifra, fisherman, elevven",san francisco,trance,WIP,900 marin st
+2019-03-23T19:30:00Z,cornerstone,fleetmac wood,berkeley,"disco, funk, rock remixes",WIP,no match
+2019-03-23T20:00:00Z,bill graham civic auditorium,unleashed: kayzo doghouse takeover,san francisco,"pop EDM, dubstep, hardcore",WIP,99 grove st
+2019-03-23T20:00:00Z,great american music hall,"com truise w/ jack grace, ginla",san francisco,"synthpop, electro, synthwave",WIP,no match
+2019-03-23T20:30:00Z,ivy room (albany),purim 2019,,psytrance,WIP,no match
+2019-03-23T21:00:00Z,starline social club,egyptian lover,oakland,"hip-hop, electro",WIP,2236 martin luther king jr. way
+2019-03-23T21:30:00Z,audio,m.a.n.d.y. + ben bohmer,san francisco,tech house,WIP,316 11th st
+2019-03-23T21:30:00Z,wish bar and lounge,relativity: a test of time + friends,san francisco,"melodic house, melodic techno",WIP,1539 folsom st
+2019-03-23T21:30:00Z,public works,andhim & powel,san francisco,"progressive house, tech house",WIP,161 erie st
+2019-03-23T21:30:00Z,monarch,set w/ dosem + matt lange,san francisco,"progressive house, deep house, tech house",WIP,101 6th st
+2019-03-23T22:00:00Z,august hall,snbrn,san francisco,"funky house, disco, pop EDM",WIP,420 mason st
+2019-03-23T22:00:00Z,halcyon,halcyon and moulton music present louie vega,san francisco,house,WIP,no match
+2019-03-25T19:00:00Z,harlow's restaurant and nightclub,"com truise w/jack grace, ginla",sacramento,"synthpop, electro, synthwave",WIP,no match
+TKTKWed: Mar 27-Sun: Mar 31(Wed: 4pm-Sun: 12am),mvmnt studio,mvmnt bay area dance festival,berkeley,"house, hip-hop",WIP,no match
+2019-03-27T21:00:00Z,f8 1192 folsom,"housepitality: ash lauryn, experimental housewife, don crisp",san francisco,"house, techno",WIP,1192 folsom
+2019-03-28T21:00:00Z,bill graham civic auditorium,massive attack,san francisco,"trip-hop, downtempo",WIP,99 grove st
+2019-03-28T21:00:00Z,monarch,"cosmic bridge tour: om unit, dj madd, moresounds",san francisco,"dubstep, hip-hop, drum and bass, bass music",WIP,101 6th st
+2019-03-28T21:00:00Z,dna lounge,"sequence: p0gman, shiverz, slimez",san francisco,dubstep,WIP,375 11th st
+2019-03-28T22:00:00Z,1015 folsom basement,party pupils + pat lok,san francisco,house,WIP,1015 folsom st
+2019-03-28T22:00:00Z,halcyon,joris voorn,san francisco,tech house,WIP,no match
+2019-03-29T21:00:00Z,the uptown,native tongues appreciation night feat. prince paul & dante ross,oakland,hip-hop,WIP,no match
+2019-03-29T22:00:00Z,halcyon,"low steppa, sam divine, ferreck dawn",san francisco,"tech house, bassline, uk garage",WIP,no match
+2019-03-29T22:00:00Z,f8 1192 folsom,robot ears: jamaica suk,san francisco,tech house,WIP,1192 folsom
+2019-03-30T11:00:00Z,ancil hoffman park/ american river parkway (carmichael),sunbeat 8 - rogue alliance day party,,"house, drum and bass, dubstep",WIP,no match
+2019-03-30T17:00:00Z,bill graham civic auditorium,"bay nites: flux pavilion, rich the kid, 4b, yultron, wax motif, diablo, wenzday",san francisco,"dubstep, trap, electro house, pop EDM",WIP,99 grove st
+2019-03-30T21:00:00Z,august hall,broods,san francisco,synthpop,WIP,420 mason st
+2019-03-30T21:00:00Z,regency ballroom,opulent temple's 10th annual sacred dance,san francisco,"tech house, electro house, breaks",WIP,1300 van ness ave
+2019-03-30T22:00:00Z,the lab,russell haswell + pita,san francisco,"experimental, techno, noise",WIP,no match
+2019-03-30T22:00:00Z,temple nightclub,breathe carolina,san francisco,"big room, electropop",WIP,540 howard st
+2019-03-31T12:00:00Z,hotel via,"bliss vibes - on the roof (mioli music 9 year anniversary!): emanate, hobson",san francisco,"deep house, tech house",WIP,no match
+2019-03-31T20:00:00Z,rickshaw stop,"and one, vore aurora",san francisco,synthpop,WIP,155 fell st
+2019-04-02T18:30:00Z,ace of spades,quinn xcii: from tour w/ love,sacramento,"synthpop, hip-hop, reggae",WIP,no match
+2019-04-04T19:00:00Z,ace of spades,san holo,sacramento,"future bass, trap, dubstep",WIP,no match
+2019-04-04T20:00:00Z,the catalyst (santa cruz),"space jesus w/buku, huxley anne, eazybaked",,"dubstep, glitch-hop, bass music",WIP,1011 pacific ave
+2019-04-04T21:00:00Z,the continental bar lounge & patio,onra (paris),san jose,"hip-hop, r&b, soul",WIP,no match
+2019-04-05T02:00:00Z,tba,mason maynard,san francisco,tech house,WIP,no match
+2019-04-05T20:00:00Z,the uc theatre taube family music hall,"space jesus, buku, huxley anne, eazybaked",berkeley,"dubstep, glitch-hop, bass music",WIP,2036 university ave
+2019-04-05T21:00:00Z,rickshaw stop,tennyson (live),san francisco,"synthpop, future beats, trip-hop, experimental",WIP,155 fell st
+2019-04-05T21:30:00Z,audio,paul oakenfold,san francisco,"progressive house, trance",WIP,316 11th st
+2019-04-05T21:30:00Z,public works oddjob loft,"noctuary 12 w/ anastasia kristensen & carlos souffront, kudeki",san francisco,"acid house, tech house, techno",WIP,1337 mission st
+2019-04-05T22:00:00Z,the great northern,tchami's ghosts,san francisco,"bass house, future house, electro house",WIP,119 utah st
+2019-04-05T22:00:00Z,the public works,atish all night,san francisco,"techno, progressive house, tech house",WIP,161 erie st
+2019-04-05T22:00:00Z,f8 1192 folsom,parameter w/pariah,san francisco,"techno, garage",WIP,1192 folsom
+2019-04-06T19:30:00Z,cornerstone,robotaki,berkeley,"synthpop, future bass",WIP,no match
+2019-04-06T20:00:00Z,oakland metro,mortiis,oakland,"industrial rock, dark ambient",WIP,522 2nd st
+2019-04-06T20:00:00Z,slim's,dabin,san francisco,"future bass, pop EDM",WIP,no match
+2019-04-06T21:30:00Z,audio,croatia squad,san francisco,"house, nu-disco",WIP,316 11th st
+2019-04-06T21:30:00Z,monarch,set w/gardens of god & joseph ashworth,san francisco,"tech house, progressive house",WIP,101 6th st
+2019-04-07T13:00:00Z,audio,honey dijon,san francisco,"deep house, tech house",WIP,316 11th st
+2019-04-07T14:00:00Z,7th west,"soul deluxe 2019 w/dj theo & sen-sei live! david harness, mario dubbz",oakland,"deep house, soulful house, hip-hop, r&b",WIP,no match
+2019-04-10T21:00:00Z,the new parish,little people,oakland,"downtempo, hip-hop",WIP,1743 san pablo ave
+2019-04-11T20:00:00Z,the warfield,fkj,san francisco,"future beats, hip-hop, r&b",WIP,982 market st
+2019-04-11T22:00:00Z,audio,ashley wallbridge,san francisco,"trance, house",WIP,316 11th st
+TKTKFri: Apr 12-Sun: Apr 14(Fri: 1pm-Sun: 12pm),tba (northern california),end means beginning,,"jungle, techno, dubstep, garage, bass music, house, breakcore, experimental",WIP,no match
+2019-04-12T19:00:00Z,bill graham civic auditorium,"excision, black tiger sex machine, subtronics, downlink, sullivan king, wooli, subdocta",san francisco,"dubstep, brostep",WIP,99 grove st
+2019-04-12T20:00:00Z,fox theater,beats antique,oakland,"glitch-hop, hip-hop, downtempo, tribal, dubstep",WIP,1807 telegraph ave
+2019-04-12T21:00:00Z,the golden bull,the cauldron - spring fever benefit / dj starr's birthday,oakland,"darkwave, goth, electro",WIP,no match
+2019-04-12T21:00:00Z,brix 581,"rhythm method: dave aju, george didescu's bday!",oakland,"deep house, tech house",WIP,581 5th st
+2019-04-12T21:00:00Z,the new parish,"slug wife, kursa, broken note, seppa",oakland,"dubstep, halftime drum and bass",WIP,1743 san pablo ave
+2019-04-12T22:00:00Z,halcyon,fur coat,san francisco,"tech house, deep house, progressive house",WIP,no match
+2019-04-13T19:00:00Z,bill graham civic auditorium,"excision, virtual riot, barely alive, dion timmer, dubloadz, sullivan king",san francisco,"dubstep, brostep",WIP,99 grove st
+2019-04-13T20:00:00Z,great american music hall,"emancipator - loci showcase tour 2019 w/ marley carroll, 9 theory, lapa",san francisco,"trip-hop, downtempo",WIP,no match
+2019-04-17T19:30:00Z,the independent,boy harsher w/special interest,san francisco,"darkwave, industrial",WIP,628 divisadero st
+2019-04-17T21:00:00Z,the new parish,"wormhole: bukez finezt, the widdler, & more",oakland,"dubstep, trap, glitch-hop, hip-hop, psydub, breakbeat, bass music",WIP,1743 san pablo ave
+TKTKThu: Apr 18-Sun: Apr 21(Thu: 10am-Sun: 3pm),tba (northern california),2019 gays hate techno spring gathering,,"house, techno",WIP,no match
+2019-04-18T22:00:00Z,halcyon,"amelie lens, farrago",san francisco,techno,WIP,no match
+2019-04-19T02:00:00Z,tba,westend and zendlo,san francisco,"tech house, funky house",WIP,no match
+TKTKFri: Apr 19-Sun: Apr 21(Fri: 1pm-Sun: 5pm),tba (concow),moongodz presents: carb cap,,"psytrance, hard trap, house, techno, dubstep, garage, bass music",WIP,no match
+TKTKFri: Apr 19-Wed: Apr 24(Fri: 1:11pm-Wed: 11:11pm),tba (pioneer),psyover 420 passover,,psytrance,WIP,no match
+2019-04-19T20:00:00Z,greek theatre,chvrches,berkeley,"synthpop, indie dance",WIP,no match
+2019-04-20T21:00:00Z,public works,charlotte de witte,san francisco,techno,WIP,161 erie st
+2019-04-20T22:00:00Z,august hall,party favor,san francisco,"big room house, electro house, trap",WIP,420 mason st
+TKTKThu: Apr 25-Sun: Apr 28(Thu: 8pm-Sun: 8pm),heartland community (wheatland),colab campout 2019,,"bass music, dubstep, global bass, glitch",WIP,no match
+2019-04-25T21:00:00Z,dna lounge,sequence ft. midnight tyrannosaurus & cromatik,san francisco,dubstep,WIP,375 11th st
+TKTKFri: Apr 26-Mon: Apr 29(Fri: 6pm-Mon: 9am),woodward reservoir (oakdale),serenity gathering,,"bass music, dubstep, psydub, drum and bass",WIP,no match
+2019-04-26T21:00:00Z,mezzanine,"all in: fatum, genix, jaytech, sunny lax",san francisco,progressive house,WIP,444 jessie st
+2019-04-26T21:30:00Z,the great northern,"sol.selectas showcase w/sabo, goldcap and armen miran",san francisco,"tech house, progressive house, tribal house, techno",WIP,119 utah st
+2019-04-27T19:00:00Z,bill graham civic auditorium,slushii,san francisco,"future beats, trap, dubstep",WIP,99 grove st
+2019-04-30T20:00:00Z,oakland metro operahouse,perturbator,oakland,darkwave,WIP,522 2nd st
+TKTKThu: May 2-Sun: May 5(Thu: 12pm-Sun: 5pm),santa cruz county fairgrounds (santa cruz),2019 unscruz: bizarre bazaar,,burning man regional,WIP,no match
+2019-05-03T22:00:00Z,audio,david hohme - open 2 close,san francisco,deep house,WIP,316 11th st
+2019-05-04T12:00:00Z,alameda county fairgrounds (pleasanton),dirtybird bbq 2019: bay area,,"tech house, funky house",WIP,no match
+2019-05-04T19:30:00Z,cornerstone,crankdat,berkeley,trap,WIP,no match
+2019-05-04T20:00:00Z,fox theater,the midnight,oakland,synthwave,WIP,1807 telegraph ave
+2019-05-04T21:00:00Z,halcyon,amok- will clarke and sian,san francisco,"tech house, deep house",WIP,no match
+2019-05-04T21:30:00Z,monarch,john monkman & clarian,san francisco,"tech house, deep house",WIP,101 6th st
+2019-05-10T20:00:00Z,the midway,anjunabeats,san francisco,"progressive house, deep house",WIP,900 marin st
+2019-05-10T20:30:00Z,the independent,l'imperatrice,san francisco,"pop, disco, electro",WIP,628 divisadero st
+2019-05-10T21:00:00Z,mezzanine,dance yourself clean,san francisco,"indie dance, synthpop, house",WIP,444 jessie st
+2019-05-10T21:30:00Z,the great northern,nick warren b2b guy j,san francisco,"tech house, techno, deep house",WIP,119 utah st
+2019-05-11T20:00:00Z,the midway,anjunabeats,san francisco,"progressive house, deep house",WIP,900 marin st
+2019-05-11T20:30:00Z,the independent,l'imperatrice,san francisco,"pop, disco, electro",WIP,628 divisadero st
+2019-05-11T21:00:00Z,dna lounge,dynohunter,san francisco,tech house,WIP,375 11th st
+2019-05-15T18:00:00Z,ace of spades,jai wolf,sacramento,"hip-hop, trap, synthpop",WIP,no match
+2019-05-17T20:00:00Z,bill graham civic auditorium,the chemical brothers w/ the black madonna,san francisco,"house, techno, disco",WIP,99 grove st
+2019-05-17T20:00:00Z,great american music hall,tr/st,san francisco,electropop,WIP,no match
+2019-05-24T22:00:00Z,audio,set w/ hernan cattaneo,san francisco,progressive house,WIP,316 11th st
+TKTKFri: May 31-Mon: Jun 3(Fri: 4pm-Mon: 12pm),mariposa county fairgrounds (mariposa),the untz festival 2019,,"bass music, dubstep, glitch, psydub",WIP,no match
+2019-05-31T21:30:00Z,cat club,the haunting of dark shadows,san francisco,"industrial, EBM, goth",WIP,1190 folsom st
+2019-06-01T22:00:00Z,tba (east bay),sound apsylum 2,,psytrance,WIP,no match
+2019-06-02T14:00:00Z,lost & found,sunday bliss w/david harness & master kev b2b all day!,oakland,deep house,WIP,no match
+TKTKMon: Jun 17-Wed: Jun 26(Mon: 12pm-Wed: 12pm),tba (pnw),autonomous mutant festival,,experimental,WIP,no match
+TKTKThu: Jun 20-Sun: Jun 23(Thu: 11am-Sun: 11:30am),blue mountain event center (wilseyville),stilldream festival 2019 - summer solstice,,"dubstep, bass music, trap, glitch-hop, experimental, house, disco, funk",WIP,no match
+2019-06-24T20:00:00Z,the regency ballroom,empire of the sun,san francisco,synthpop,WIP,1300 van ness ave
+2019-06-25T20:00:00Z,the regency ballroom,empire of the sun,san francisco,synthpop,WIP,1300 van ness ave
+TKTKSat: Jul 13-Sun: Jul 14(Sat: 7pm-Sun: 4pm),tba (norcal),"absolut shit 2019 norcal party w/sectio aurea, anficlavis, fractal cowboys, ghreg on earth, the dog of tears, silent movement, herbert quain",,psytrance,WIP,no match
+TKTKFri: Jul 19-Mon: Jul 22(Fri: 10am-Mon: 10am),cooks valley campground (piercy),northern nights music festival 2019,,multigenre camping festival,WIP,no match
+2019-07-19T17:30:00Z,greek theatre at uc berkeley,"rufus du sol, the acid",berkeley,"indie dance, house",WIP,no match
+2019-07-20T19:00:00Z,greek theatre at uc berkeley,"rufus du sol, the acid",berkeley,"indie dance, house",WIP,no match
+TKTKFri: Aug 2-Sun: Aug 4(Fri: 12pm-Sun: 3pm),tba (northern california),"alien mind control: ekimskrid, xhamanik ritual, aluxes, goldilox, vampyromorpha, silent movement, serendipity, herbert quain, lali shyama, joshuasca, hardkore nate, andaaza, skuzzo",,psytrance,WIP,no match
+TKTKFri: Sep 20-Sun: Sep 22(Fri: 12pm-Sun: 10pm),tba (sopiago creek),redmarines festival 2019,,"psytrance, techno",WIP,no match
+2019-09-27T20:00:00Z,slim's,nitzer ebb,san francisco,EBM,WIP,no match
+TKTKFri: Oct 4-Sun: Oct 6(Fri: 10am-Sun: 11:59pm),modesto reservoir (waterford),dirtybird campout west coast 2019,,"tech house, funky house, deep house, hip-hop, trap, drum and bass",WIP,no match
+TKTKstart-date-time,TKTKgeography,name,,tags,WIP,no match
+TKTKMondays(9pm),the ruby room,moody mondays w/d!ana,oakland,various,WIP,132 14th st
+TKTKMondays(9:30pm-3am),dna lounge,death guild,san francisco,"goth, industrial, synthpop, noise, ambient",WIP,375 11th st
+TKTKTuesdays(5pm),phonobar,nice timing,san francisco,"house, techno",WIP,370 grove st
+TKTKTuesdays(9pm-1:30am),the continental bar lounge & patio,"rhythm ritual w/arturo garces, eddie house, & soul shadow",san jose,house,WIP,no match
+TKTKTuesdays(10pm-2am),monarch,soundpieces,san francisco,"bass music, trap, hip-hop, dubstep, club music",WIP,101 6th st
+TKTK1st/3rd Tuesdays(10pm-1:50am),underground,shelter,san francisco,drum and bass,WIP,424 haight st
+TKTK2nd Tuesdays(9pm),harlot,tutu tuesday,san francisco,deep house,WIP,46 minna st
+TKTK3rd Tuesdays(8pm-1am),era art bar and lounge,"global barrio w/jackfruit, juan g",oakland,"digital cumbia, reggaeton, afrobeats, latin house",WIP,19 grand ave
+TKTKWednesdays(7pm-12am),omg,revival wednesdays,san francisco,"pop EDM, trap, dubstep, house, electro drum and bass, techno",WIP,43 6th st
+TKTKWednesdays(9:30pm-2am),715 harrison st,amplify,san francisco,"pop EDM, trap, dubstep, hardstyle, drum and bass",WIP,no match
+TKTKWednesdays(9pm-2am),the new parish,wormhole wednesday,oakland,"dubstep, trap, glitch-hop, jungle, hip-hop, psydub, breakbeat, jungle, bass music",WIP,1743 san pablo ave
+TKTKWednesdays(9pm-3am),f8 1192 folsom,housepitality,san francisco,house,WIP,1192 folsom
+TKTK1st/3rd Wednesdays(8pm-12am),the royale,djmadre,san francisco,"future bass, hip hop, funk, soul, global bass",WIP,no match
+TKTK1st Wednesdays(9pm-1am),cafe stritch,"a n a l o g / all vinyl party w/cutso, brandon roos, chale brown, mark plstk",san francisco,"hip-hop, future beats",WIP,no match
+TKTK3rd Wednesdays(9pm-2am),the hatch,so it goes,oakland,"progressive house, deep house",WIP,no match
+TKTKThursdays(9pm),the continental bar lounge & patio,"the changing same w/the c.m.e., shea butter, mark plstk, chale brown",san jose,"hip-hop, future beats",WIP,no match
+TKTKThursdays(5pm),vinyl dreams,something better w/ sticky nicky shoes,san francisco,various,WIP,593 haight st
+TKTKThursdays(6pm),phonobar,diacritic collective,san francisco,techno,WIP,370 grove st
+TKTKThursdays(10pm-2am),temple nightclub,next level thursdays,san francisco,various,WIP,540 howard st
+TKTKThursdays(10pm-4am),the endup,substance,,house,WIP,401 6th st
+TKTK1st Thursdays(10pm),the stud,"intersection returns w/nihar bhatt, russell e.l. butler",,"techno, house",WIP,399 9th st
+TKTK1st Thursdays(9pm-2am),the hatch,"cheat day ft. dj jackfruit, jon reyes, das boots, salty sherilyn, joogmac",oakland,"baile funk, dancehall, hip-hop, house, future soul",WIP,no match
+TKTK1st Thursdays(10pm-2am),wish bar and lounge,deep-n-dirty,,house,WIP,no match
+TKTK2nd Thursdays(10pm-2am),starline social club,"constellations: libra edition w/ nina sol, wonway, heylove*",,"deep house, hip-hop, afrobeats, breaks",WIP,2236 martin luther king jr. way
+TKTK2nd Thursdays(9:30pm-2am),2313 san pablo ave,concrete roots,oakland,hip-hop,WIP,no match
+TKTK2nd Thursdays(9:30pm-2:30am),monarch,you're welcome,,"house, techno, disco",WIP,101 6th st
+TKTK2nd Thursdays(10pm-2am),milk bar,homespun,san francisco,"funky house, deep house, tech house",WIP,1840 haight st
+TKTK2nd/4th Thursdays(9pm-1:30am),the hatch,"deep in the hatch w/ledastray, moto tembo",oakland,"deep house, tech house",WIP,no match
+TKTK3rd Thursdays(9pm-2am),underground sf,they're here,,"techno, deep house, progressive house",WIP,424 haight st
+TKTK3rd Thursdays(9pm),the legionnaire saloon,wax trippin,oakland,hip-hop,WIP,2272 telegraph ave
+TKTK3rd Thursdays(8pm-12am),bergerac,"oomph w/klekno, michelle musial",,"ambient house, techno, tribal progressive, dho",WIP,316 11th st
+TKTK3rd Thursdays(7pm-12:30am),the legionnaire saloon,bay area producers social,,producer class,WIP,2272 telegraph ave
+TKTK4th Thursdays(8pm-12am),au lounge oakland,grooveshack w/black & omar johnson,oakland,deep house,WIP,no match
+TKTK4th Thursdays(9pm-1am),bissap baobab village,brazil electro,,"latin dance, electro",WIP,no match
+TKTK4th Thursdays(9pm-1am),the legionnaire saloon,outer limit disco,,"rare groove, disco, balearic, funk, boogie, afrobeat, latin dance",WIP,2272 telegraph ave
+TKTK4th Thursdays(7pm-2am),monarch,airpusher flyby,,house,WIP,101 6th st
+TKTK4th Thursdays(9pm-2am),lounge 3411,dystopia,,"drum and bass, jungle",WIP,3411 macarthur blvd
+TKTKFridays(2am-8am),the endup,"party adventures w/s-queen, ivory, mikey tan, cuervo",,house,WIP,401 6th st
+TKTKFridays(9pm-2am),haven underground,re:fresh - electropical,,"bass music, dubstep, trap",WIP,no match
+TKTKFridays(2am-8am),the endup,fever,,house,WIP,401 6th st
+TKTK1st Fridays(9pm-2am),madrone art bar,dirty rotten dance party,,"big room, electro house, hhop, pop EDM",WIP,500 divisadero st
+TKTK1st Fridays(10pm),the layover,ren the vinyl archaeologist,oakland,hip-hop,WIP,1517 franklin st
+TKTK2nd Fridays(10pm-2am),wish bar and lounge,king size fridays,,house,WIP,no match
+TKTK3rd Fridays(8pm-12am),black hammer brewery,safety 3rd,san francisco,"deep house, tech house",WIP,no match
+TKTK3rd Fridays(10pm),bar fluxus,hi life party,san francisco,"reggaeton, afrobeat, baile funk, tropical bass",WIP,18 harlan place
+TKTK4th Fridays(6pm-10pm),wish bar & lounge,sequential w/ samazul,,house,WIP,no match
+TKTKSaturdays(10:30am-7pm),score bar & lounge,broke buddha artists,san francisco,"house, hip-hop, world music, future beats",WIP,no match
+TKTKSaturdays(6am-11am),"the cosmo bar & lounge (440 broadway, san francisco)",keep going,san francisco,"deep house, tribal house, tech house",WIP,no match
+TKTKSaturdays(9pm-3am),dna lounge,bootie sf,,mashup,WIP,375 11th st
+TKTK1st Saturdays(10pm-10am),the endup,rel8,,house,WIP,401 6th st
+TKTK1st/3rd Saturdays(10pm-2am),wish bar and lounge,deepcity / paul rosas & christopher t,,house,WIP,no match
+TKTK2nd Saturdays(9pm-12am),studio grand,in too deep,,"leftfield, house, techno",WIP,no match
+TKTK2nd Saturdays(7pm-2am),wish bar and lounge,escape/our house,,house,WIP,no match
+TKTK3rd Saturdays(9pm-1:30am),era art bar and lounge,heavy: trap + dirty south w/ dj mujie,,"trap, dirty south hhop",WIP,19 grand ave
+TKTK3rd Saturdays(9pm-2am),underground sf,push the feeling,,house,WIP,424 haight st
+TKTK3rd Saturdays(10pm-2am),spirithaus gallery,"elements: patrick wilson, nina sol",oakland,"funky house, deep house",WIP,2217 adeline st
+TKTK4th Saturdays(9pm-2am),underground sf,mnml:fun,,"techno, minimal",WIP,424 haight st
+TKTK4th Saturdays(9:30pm),hello stranger bar,in rotation w/ dj flow & special guests,oakland,open decks,WIP,no match
+TKTK4th Saturdays(10pm-2am),wish bar & lounge,vision,,"deep house, funky house",WIP,no match
+TKTKLast Saturdays(3pm),oakland museum of california,chop it up,oakland,hip-hop,WIP,no match
+TKTKSundays(11am-5pm),score bar and lounge,broke buddha,san francisco,house,WIP,no match
+TKTKSundays(12pm-8pm),mars bar,mars sundays house,,house,WIP,798 brannan st
+TKTKSundays(9pm),monarch,werd.,,"funky house, tech house",WIP,101 6th st
+TKTKSundays(10pm),f8 1192 folsom,stamina sundays,,"drum and bass, jungle",WIP,no match
+TKTK1st Sundays(3pm-10pm),brix 581,afternoon bliss,,"deep house, funky house",WIP,581 5th st
