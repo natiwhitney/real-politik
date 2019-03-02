@@ -21,7 +21,7 @@ def find_content(page_content, content_metadata):
       "table": find_table,
       # diff srcs-> diff formats
   }
-  content_format = content_metadata['html-element']
+  content_format = content_metadata['format']
   func = switcher.get(content_format,
                       lambda: "Invalid format:" + content_format)
   return func(page_content)
@@ -51,7 +51,7 @@ def convert_html_table_to_dict(table):
 def convert_content(content, content_metadata):
   # Given BeautifulSoup HTML tree(s), convert to dict(s)
   # Conversion function is selected based on content's format key
-  content_format = content_metadata['html-element']
+  content_format = content_metadata['format']
   content_indices = content_metadata['indices']
   switcher = {
       "table": convert_html_table_to_dict,  # diff srcs -> diff formats

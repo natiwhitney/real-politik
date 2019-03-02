@@ -4,7 +4,7 @@
   parser: html5lib
   page-format:
     events:
-      html-element: table
+      format: table
       indices: [0, 1]
       url-mappings:
         start-date-time: [Date/Time]
@@ -14,7 +14,7 @@
         tags: [Tags]
         miscellaneous: [Price | Age, Organizers, Links]
     venues:
-      html-element: table
+      format: table
       indices: [2]
       url-mappings:
         venue-name: [Venue Name]
