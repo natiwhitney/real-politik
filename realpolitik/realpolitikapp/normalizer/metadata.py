@@ -1,6 +1,7 @@
 # TK bespoke source logic from a database/excel spreadsheet
 from parsers import *
 
+# move this a YAML file
 sources_metadata = {"19hz": {
   'url': 'https://19hz.info/eventlisting_BayArea.php',
   'page-format': {
