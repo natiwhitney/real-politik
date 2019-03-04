@@ -13,12 +13,16 @@ def scrape_page(url, parser):
 def find_table(page_content):
   return page_content.find_all("table")
 
+def find_html_elements(page_content):
+
+
 
 def find_content(page_content, content_metadata):
   # Given BeautifulSoup page object, find relevant content
   # Find function is selected based on content's format key
   switcher = {
       "table": find_table,
+      "html": find_html_elements
       # diff srcs-> diff formats
   }
   content_format = content_metadata['format']

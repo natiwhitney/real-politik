@@ -19,4 +19,11 @@
       url-mappings:
         venue-name: [Venue Name]
         venue-address: [Physical Address]
+theshrine-nyc:
+  url: https://www.shrinenyc.com/
+  parser: html.parser
+  page-format:
+    events:
+      format: html
+
 
