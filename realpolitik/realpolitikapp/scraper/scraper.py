@@ -9,29 +9,12 @@ def scrape_page(url, parser):
   page_content = BeautifulSoup(page_response.content, parser)
   return page_content
 
+def convert_html_elements_to_dict(page_content, find_args):
+  html_elements = page_content.select(*find_args)
 
-def find_table(page_content):
-  return page_content.find_all("table")
-
-def find_html_elements(page_content):
-
-
-
-def find_content(page_content, content_metadata):
-  # Given BeautifulSoup page object, find relevant content
-  # Find function is selected based on content's format key
-  switcher = {
-      "table": find_table,
-      "html": find_html_elements
-      # diff srcs-> diff formats
-  }
-  content_format = content_metadata['format']
-  func = switcher.get(content_format,
-                      lambda: "Invalid format:" + content_format)
-  return func(page_content)
-
-
-def convert_html_table_to_dict(table):
+# whats the best way to deal with indices
+def convert_html_table_to_dict(page_content, table):
+  table = page_content.find_all("table")
   headers = []
   d = {}
   for header in table.find_all("th"):
@@ -56,17 +39,14 @@ def convert_content(content, content_metadata):
   # Given BeautifulSoup HTML tree(s), convert to dict(s)
   # Conversion function is selected based on content's format key
   content_format = content_metadata['format']
-  content_indices = content_metadata['indices']
+  content_elements = content_metadata['elements']
   switcher = {
-      "table": convert_html_table_to_dict,  # diff srcs -> diff formats
+      "table": convert_html_table_to_dict,
+      "html": convert_html_elements_to_dict,
   }
-  html_dicts = []
-  for ind in content_indices:   # there may be multiple tables, i.e. 19hz
-    content_html = content[ind]
-    func = switcher.get(content_format,
-                        lambda: "Invalid format:" + content_format)
-    content_dict = func(content_html)
-    html_dicts.append(content_dict)
+  func = switcher.get(content_format,
+                      lambda: "Invalid format:" + content_format)
+  html_dicts = func(content, content_elements)
   return html_dicts
 
 
@@ -97,8 +77,7 @@ def convert_to_raw_dict(content_dict, url_mappings, name):
 
 # TKTK known bug... currently including headers twice
 def process_content(page_content, content_metadata, name):
-  content = find_content(page_content, content_metadata)
-  html_dicts = convert_content(content, content_metadata)
+  html_dicts = convert_content(page_content, content_metadata)
   content_mappings = content_metadata['url-mappings']
   raw_dicts = []
   for html_dict in html_dicts:

@@ -5,7 +5,7 @@
   page-format:
     events:
       format: table
-      indices: [0, 1]
+      elements: [0, 1]
       url-mappings:
         start-date-time: [Date/Time]
         end-date-time: [Date/Time]
@@ -15,7 +15,7 @@
         miscellaneous: [Price | Age, Organizers, Links]
     venues:
       format: table
-      indices: [2]
+      elements: [2]
       url-mappings:
         venue-name: [Venue Name]
         venue-address: [Physical Address]
@@ -25,5 +25,13 @@ theshrine-nyc:
   page-format:
     events:
       format: html
+      elements: ["#now-playing"]
+      url-mappings:
+        start-date-time: ["h1"]
+        end-date-time: ["h2"]
+        geography: "title"
+        name: ["h2"]
+        tags: ["h2"]
+        miscellaneous: ["text"]
 
 
