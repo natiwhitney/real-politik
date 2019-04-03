@@ -1,26 +1,13 @@
 import sys
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
-from configs.load_metadata import sources_metadata
+from sources_metadata import *
 from utils.csvloader import write_data
 
 url = "https://www.shrinenyc.com/"
 parser = "html.parser"
-venues_file_name = "raw_venues.csv"
-events_file_name = "raw_events.csv"
-source = "19hz"
-
-column_mappings = {
-  "events": {
-    "start-date-time": ["h1"],
-    "end-date-time": ["h2"],
-    "geography": "the shrine, nyc",
-    "name": ["h2"],
-    "tags": ["h2"],
-    "link": ["a"],
-    "miscellaneous": [["div", {"class":"nowright"}]]
-  }
-}
+source = "theshrinenyc"
+events_file_name = "raw_events_" + source + ".csv"
 
 def soupify(url, parser):
   page_response = requests.get(url, timeout=5)
@@ -35,26 +22,40 @@ def append_elem(d, h, e):
   d_curr = d[h]
   d_curr.append(e)
 
-def convert_html_to_temp(events_html):
+def init_dict(headers):
   d = {}
-  for h in column_mappings["events"].keys():
+  for h in headers:
     d.setdefault(h, [])
+  return d
+
+column_extractor = {
+  "start-date-time": lambda x: x.h1.text,
+  "end-date-time": lambda x: x.h2.text,
+  "geography": lambda x: "the shrine, nyc",
+  "name": lambda x: x.h2.text,
+  "tags": lambda x: x.h2.text,
+  "link": lambda x: x.a.get("href"),
+  "miscellaneous": lambda x: x.find("div", {"class":"nowright"}).contents[-1]
+}
+
+def convert_events_html_to_temp(events_html):
+  d = init_dict(column_extractor.keys())
   for child in events_html.contents:
     if isinstance(child, NavigableString):
         continue
     if isinstance(child, Tag):
       try:
-        append_elem(d, "start-date-time", child.h1.text)
-        append_elem(d, "end-date-time", child.h2.text)
-        append_elem(d, "geography", "the shrine, nyc")
-        append_elem(d, "name", child.h2.text)
-        append_elem(d, "tags", child.h2.text)
-        append_elem(d, "link", child.a.get("href"))
-        grandkids = child.find("div", {"class":"nowright"}).contents
-        append_elem(d, "miscellaneous", grandkids[-1])
+        for k,v in column_extractor.items():
+          append_elem(d, k, v(child))
       except:
         pass
   return d
 
-times = convert_html_to_temp(get_events_html(soupify(url, parser)))
-print(times["miscellaneous"])
+def main():
+  events_temp_dict = convert_events_html_to_temp(get_events_html(soupify(url,parser)))
+  write_data(events_file_name, events_temp_dict)
+
+if __name__ == '__main__':
+    main()
+
+

@@ -1,29 +1,35 @@
 import sys
 import requests
 from bs4 import BeautifulSoup
-from configs.load_metadata import sources_metadata
 from utils.csvloader import write_data
 
 url = "https://19hz.info/eventlisting_BayArea.php"
 parser = "html5lib"
-column_mappings = {
-  "venues": {
-    "venue-name": ["Venue Name"],
-    "venue-address": ["Physical Address"]
-  },
-  "events": {
-    "start-date-time": ["Date/Time"],
-    "end-date-time": ["Date/Time"],
-    "geography": ["Event Title @ Venue"],
-    "name": ["Event Title @ Venue"],
-    "tags": ["Tags"],
-    "link": ["Links"],
-    "miscellaneous": ["Price | Age", "Organizers"]
-  }
-}
-venues_file_name = "raw_venues.csv"
-events_file_name = "raw_events.csv"
 source = "19hz"
+events_file_name = "raw_events_" + source + ".csv"
+venues_file_name = "raw_venues_" + source + ".csv"
+
+venues_column_extractor = {
+  "venue-name": lambda x, y: x[y.index("Venue Name")].text,
+  "venue-address": lambda x, y: x[y.index("Physical Address")].text
+}
+
+def extract_link(x, y):
+  a = x[y.index("Links")].a
+  if a:
+    return a.get("href")
+  else:
+    return None
+
+events_column_extractor = {
+  "start-date-time": lambda x, y: x[y.index("Date/Time")].text,
+  "end-date-time": lambda x, y: x[y.index("Date/Time")].text,
+  "geography": lambda x, y: x[y.index("Event Title @ Venue")].text,
+  "name": lambda x, y: x[y.index("Event Title @ Venue")].text,
+  "tags": lambda x, y: x[y.index("Tags")].text,
+  "link": lambda x, y: extract_link(x,y),
+  "miscellaneous": lambda x, y: x[y.index("Price | Age")].text + x[y.index("Organizers")].text
+}
 
 def soupify(url, parser):
   page_response = requests.get(url, timeout=5)
@@ -38,55 +44,40 @@ def get_venues_html(soup):
   tables = soup.find_all("table")
   return tables[2]
 
-def convert_html_to_dict(table):
-  headers = []
+def init_dict(headers):
   d = {}
+  for h in headers:
+    d.setdefault(h, [])
+  return d
+
+def append_elem(d, h, e):
+  d_curr = d[h]
+  d_curr.append(e)
+
+def convert_html_to_temp(table, column_extractor):
+  d = init_dict(column_extractor.keys())
+  headers = []
   for header in table.find_all("th"):
     h = header.string
     if h:
       headers.append(h)
-      d.setdefault(h, [])
   for row in table.find_all('tr'):
-    i = 0
-    for e in row.find_all('td'):
-      if i < len(headers):
-        h = headers[i]
-        d_curr = d[h]
-        d_curr.append(e.text)
-        i = i + 1
+    cells = list(row.find_all('td'))
+    if cells:
+      for k,v in column_extractor.items():
+        append_elem(d, k, v(cells, headers))
   return d
 
-def convert_to_temp_dict(html_dict, temp_mappings):
-  temp_dict_keys = temp_mappings.keys()
-  raw_dict = {}
-  for k in temp_dict_keys:
-    values = temp_mappings[k]
-    n_values = len(values)
-    n_elems = len(html_dict[values[0]])
-    elems = []
-    for i in range(0, n_elems):
-      e = ''
-      for j in range(0, n_values):
-        html_key = values[j]
-        html_value =html_dict[html_key][i]
-        if (j > 0):
-          e = e + '|' + html_value
-        else:
-          e = e + html_value
-      elems.append(e)
-    raw_dict.update({k: elems})
-    raw_dict.update({"source": [source] * n_elems})
-  return raw_dict
-
 def main():
-  venues_html_dict = convert_html_to_dict(get_venues_html(soupify(url, parser)))
-  venues_temp_dict = convert_to_temp_dict(venues_html_dict, column_mappings["venues"])
-  write_data(venues_file_name, venues_temp_dict)
+  soup = soupify(url, parser)
+  venues_html = get_venues_html(soup)
+  venues_dict = convert_html_to_temp(venues_html, venues_column_extractor)
+  write_data(venues_file_name, venues_dict)
 
-  events_html_tables = get_events_html(soupify(url, parser))
-  events_temp_dicts= [convert_to_temp_dict(convert_html_to_dict(i), column_mappings["events"]) for i in iter(events_html_tables)]
-  write_data(events_file_name, events_temp_dicts[0])
-  write_data(events_file_name, events_temp_dicts[1], False)
+  events_html = get_events_html(soup)
+  events_dicts = [convert_html_to_temp(table, events_column_extractor) for table in iter(events_html)]
+  write_data(events_file_name, events_dicts[0])
+  write_data(events_file_name, events_dicts[1], headers=False)
 
 if __name__ == '__main__':
     main()
