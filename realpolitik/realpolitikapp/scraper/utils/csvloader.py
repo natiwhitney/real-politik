@@ -1,9 +1,3 @@
-# create dictionary
-# write to csv
-
-# to do
-# TKTK skip headers when writing ... it looks ridiculous
-
 import csv
 
 def transpose_dict_of_lists(dl):
@@ -55,7 +49,7 @@ def write_new_file(csv_file_name, csv_columns_raw):
   except IOError:
     print("I/O error")
 
-def write_data(csv_file_name, dict_data, transpose = True):
+def write_data(csv_file_name, dict_data, headers=True, transpose=True):
   if (transpose):
     list_of_dicts = transpose_dict_of_lists(dict_data)
     fieldnames = list(dict_data.keys())
@@ -65,7 +59,8 @@ def write_data(csv_file_name, dict_data, transpose = True):
   try:
     with open(csv_file_name, 'a') as f:
       w =csv.DictWriter(f, fieldnames)
-      w.writeheader()
+      if headers:
+        w.writeheader()
       for data in list_of_dicts:
         w.writerow(data)
   except IOError:
