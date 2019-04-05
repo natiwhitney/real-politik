@@ -1,10 +1,9 @@
-import sys
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 from sources_metadata import *
 from utils.csvloader import write_data
 
-url = "https://www.shrinenyc.com/"
+base_url = "https://www.shrinenyc.com/"
 parser = "html.parser"
 source = "theshrinenyc"
 events_file_name = "raw_events_" + source + ".csv"
@@ -52,7 +51,7 @@ def convert_events_html_to_temp(events_html):
   return d
 
 def main():
-  events_temp_dict = convert_events_html_to_temp(get_events_html(soupify(url,parser)))
+  events_temp_dict = convert_events_html_to_temp(get_events_html(soupify(base_url,parser)))
   write_data(events_file_name, events_temp_dict)
 
 if __name__ == '__main__':
