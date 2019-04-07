@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from utils.scraping_utils import *
 from utils.csvloader import write_data
 
 url = "https://19hz.info/eventlisting_BayArea.php"
@@ -9,8 +10,8 @@ events_file_name = "raw_events_" + source + ".csv"
 venues_file_name = "raw_venues_" + source + ".csv"
 
 venues_column_extractor = {
-  "venue-name": lambda x, y: x[y.index("Venue Name")].text,
-  "venue-address": lambda x, y: x[y.index("Physical Address")].text
+  "venue-name": lambda x, y: x[y.index("Venue Name")].string,
+  "venue-address": lambda x, y: x[y.index("Physical Address")].string
 }
 
 def extract_link(x, y):
@@ -23,7 +24,7 @@ def extract_link(x, y):
 events_column_extractor = {
   "start-date-time": lambda x, y: x[y.index("Date/Time")].text,
   "end-date-time": lambda x, y: x[y.index("Date/Time")].text,
-  "geography": lambda x, y: x[y.index("Event Title @ Venue")].text,
+  "location": lambda x, y: x[y.index("Event Title @ Venue")].text,
   "name": lambda x, y: x[y.index("Event Title @ Venue")].text,
   "tags": lambda x, y: x[y.index("Tags")].text,
   "link": lambda x, y: extract_link(x,y),
@@ -42,16 +43,6 @@ def get_events_html(soup):
 def get_venues_html(soup):
   tables = soup.find_all("table")
   return tables[2]
-
-def init_dict(headers):
-  d = {}
-  for h in headers:
-    d.setdefault(h, [])
-  return d
-
-def append_elem(d, h, e):
-  d_curr = d[h]
-  d_curr.append(e)
 
 def convert_html_to_temp(table, column_extractor):
   d = init_dict(column_extractor.keys())

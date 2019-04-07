@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
-from sources_metadata import *
+from utils.scraping_utils import *
 from utils.csvloader import write_data
 
 base_url = "https://www.shrinenyc.com/"
@@ -17,20 +17,10 @@ def get_events_html(soup):
   events_html = soup.find_all(id="nowplaying")
   return events_html[0]
 
-def append_elem(d, h, e):
-  d_curr = d[h]
-  d_curr.append(e)
-
-def init_dict(headers):
-  d = {}
-  for h in headers:
-    d.setdefault(h, [])
-  return d
-
 column_extractor = {
   "start-date-time": lambda x: x.h1.text,
   "end-date-time": lambda x: x.h2.text,
-  "geography": lambda x: "the shrine, nyc",
+  "location": lambda x: "the shrine, nyc",
   "name": lambda x: x.h2.text,
   "tags": lambda x: x.h2.text,
   "link": lambda x: x.a.get("href"),
